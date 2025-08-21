@@ -1,0 +1,24 @@
+// Generated Diagram
+digraph {
+	rankdir=LR
+	"A[User Initiates Request] -" -> "B{Choose Operation};"
+	"B -- Text Query -" -> "C[Form Data":" content=Query];"
+	"B -- File Upload -" -> "D[File Upload (PDF, Excel, Image, Video)];"
+	"B -- RAG Query -" -> "E[File Upload (PDF)];"
+	"B -- Document Classification -" -> "F[File Upload (PDF)];"
+	"C -" -> "G[API Receives Request];"
+	"D -" -> "G;"
+	"E -" -> "G;"
+	"F -" -> "G;"
+	"G -" -> "H{Validate Request (Content, File Format)};"
+	"H -- Invalid Request -" -> "I[Return Error 400 - No Input Provided];"
+	"H -- Valid Request -" -> "J[API Processes Request (Based on Operation)];"
+	"J -" -> "K{Content Flagged by Guardrail?};"
+	"K -- Yes -" -> "L[Return Error 403 - Content Flagged];"
+	"K -- No -" -> "M[AI Model Execution (Selected based on Model Choice)];"
+	"M -" -> "N[RAG Analysis (if RAG Query)];"
+	"N -" -> "O[Text Extraction/Analysis];"
+	"O -" -> "P[Generate Response];"
+	"P -" -> "Q[Return Response (with Audit Trail)];"
+	"Q -" -> "R[End];"
+}

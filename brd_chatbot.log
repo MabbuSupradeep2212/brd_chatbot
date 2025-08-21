@@ -1,0 +1,98 @@
+nohup: ignoring input
+[INFO] Loading environment variables...
+[INFO] Using downloaded & verified file: /root/.cache/doctr/models/fast_base-688a8b34.pt
+[INFO] Using downloaded & verified file: /root/.cache/doctr/models/crnn_vgg16_bn-0417f351.pt
+ * Serving Flask app 'brd_chatbot'
+ * Debug mode: on
+[INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9091
+ * Running on http://192.168.1.2:9091
+[INFO] [33mPress CTRL+C to quit[0m
+[INFO]  * Restarting with stat
+[INFO] Loading environment variables...
+[INFO] Using downloaded & verified file: /root/.cache/doctr/models/fast_base-688a8b34.pt
+[INFO] Using downloaded & verified file: /root/.cache/doctr/models/crnn_vgg16_bn-0417f351.pt
+[WARNING]  * Debugger is active!
+[INFO]  * Debugger PIN: 134-282-790
+[ERROR] 96.126.104.20 - - [18/Aug/2025 13:59:00] code 400, message Bad request version ('S\x11¹¬')
+[INFO] 96.126.104.20 - - [18/Aug/2025 13:59:00] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x1c®u©_\x89vJ\x7f³y\x95­ß\x86¦\x1dS\x11¹¬[0m" 400 -
+[INFO] 96.126.104.20 - - [18/Aug/2025 13:59:00] "[33mGET /signin HTTP/1.1[0m" 404 -
+[ERROR] 185.165.191.26 - - [18/Aug/2025 15:42:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03Å\x13\x02®\x87z\x86Ò\x84°ç')
+[INFO] 185.165.191.26 - - [18/Aug/2025 15:42:41] "[31m[1m\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03Å\x13\x02®\x87z\x86Ò\x84°ç\x0d\x1c¤¼Saä¶ci\x9eàkFm¿«;Ã®4\x00\x00rÀ0À,À(À$À\x14À[0m" 400 -
+[INFO] 185.165.191.26 - - [18/Aug/2025 15:42:44] "[33mGET / HTTP/1.1[0m" 404 -
+[ERROR] 96.126.104.20 - - [18/Aug/2025 18:02:24] code 400, message Bad request version ('À\x13À')
+[INFO] 96.126.104.20 - - [18/Aug/2025 18:02:24] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x86áM\x9d"í\x9awí\x05m|ßé\x831\x83\x0d4\x1b&æe©\x81¤ó\x81)aÂ\x0f Ûù¡Ù\x0c³rK\x0cæ¯\x0bÖ\x06\x06ë\x8f©ÀDê\x0d³:»hfFda`\x1e\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+[INFO] 96.126.104.20 - - [18/Aug/2025 18:02:24] "[33mGET /signin HTTP/1.1[0m" 404 -
+[INFO] 66.228.53.162 - - [18/Aug/2025 19:41:36] "[33mGET / HTTP/1.1[0m" 404 -
+[ERROR] 96.126.104.20 - - [18/Aug/2025 22:01:23] code 400, message Bad request version ('À\x13À')
+[INFO] 96.126.104.20 - - [18/Aug/2025 22:01:23] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03j3úÐ£?\x1c\x1eªÀ7ÅÖ®*¥DÌÂõ\x08_îhG\x81\x9b[äç¬H âzÎ\x86\x88[á"£!ßW\x07¸%"è:}ý\x99³\x91w\x83LP7\x95\x97\x9d.\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+[INFO] 96.126.104.20 - - [18/Aug/2025 22:01:23] "[33mGET /signin HTTP/1.1[0m" 404 -
+[ERROR] 80.82.77.202 - - [18/Aug/2025 23:16:28] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+[INFO] 80.82.77.202 - - [18/Aug/2025 23:16:28] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+[ERROR] 96.126.104.20 - - [19/Aug/2025 02:05:28] code 400, message Bad request version ('À\x13À')
+[INFO] 96.126.104.20 - - [19/Aug/2025 02:05:28] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x034-\x18p2U\x9d#\x1c(\x0eVÂÓZ eàz\x91Y ¸³[åO\x0e\x0b\x04Ã9 \x0c;\x05ìñç\x8aÈ\x08\x10á°R\x991ÜñÍwº]ïÒ\x09NO÷ÄÀ$ð\x93\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+[INFO] 96.126.104.20 - - [19/Aug/2025 02:05:28] "[33mGET /signin HTTP/1.1[0m" 404 -
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:21:20] "[33mGET / HTTP/1.1[0m" 404 -
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:22:58] "[33mGET / HTTP/1.1[0m" 404 -
+[ERROR] 3.134.148.59 - - [19/Aug/2025 03:24:24] code 400, message Bad request version ('À\x14À')
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:24:24] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03i²öáS¦´\x127gµMË*I°\x17Ï\x13×éI\x83o£\x0bàFA\x99g9\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+[ERROR] 3.134.148.59 - - [19/Aug/2025 03:25:46] code 400, message Bad request syntax ('SSH-2.0-Go')
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:25:46] "[31m[1mSSH-2.0-Go[0m" 400 -
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:49:43] "[33mGET / HTTP/1.1[0m" 404 -
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:52:43] "[33mGET / HTTP/1.1[0m" 404 -
+[ERROR] 3.134.148.59 - - [19/Aug/2025 03:53:28] code 400, message Bad request version ('À\x14À')
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:53:28] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03!½át÷T¤ ã)\x88F#\x13\x8d\x96N£Í-;É'\x93\x1d'÷Q*ÎìÖ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+[ERROR] 3.134.148.59 - - [19/Aug/2025 03:54:52] code 400, message Bad request syntax ('SSH-2.0-Go')
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:54:52] "[31m[1mSSH-2.0-Go[0m" 400 -
+[ERROR] 3.134.148.59 - - [19/Aug/2025 03:56:22] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\xa0')
+[INFO] 3.134.148.59 - - [19/Aug/2025 03:56:22] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03 [0m" 400 -
+[ERROR] 96.126.104.20 - - [19/Aug/2025 05:58:24] code 400, message Bad request version ('\x15')
+[INFO] 96.126.104.20 - - [19/Aug/2025 05:58:24] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x88Ð\x84¹éKñH\x96S½}Ð\x9b PE$¯n\x0dQBô\x11h\x8e\x1f\x15[0m" 400 -
+[INFO] 96.126.104.20 - - [19/Aug/2025 05:58:24] "[33mGET /signin HTTP/1.1[0m" 404 -
+[INFO] 198.235.24.208 - - [19/Aug/2025 09:02:26] "[33mGET / HTTP/1.1[0m" 404 -
+[INFO] 34.38.19.235 - - [19/Aug/2025 09:04:52] "[33mGET / HTTP/1.1[0m" 404 -
+[ERROR] 96.126.104.20 - - [19/Aug/2025 10:02:08] code 400, message Bad request version ('#%hç;TP\x88ÛÌ')
+[INFO] 96.126.104.20 - - [19/Aug/2025 10:02:08] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x8c¤\x19\x0dK\x98UØX\x83.\x0eðRÄ\x05ý]\x86ÉÕ[¶SÈ\x18^¼ \x92\x8c\x92 #%hç;TP\x88ÛÌ[0m" 400 -
+[INFO] 96.126.104.20 - - [19/Aug/2025 10:02:08] "[33mGET /signin HTTP/1.1[0m" 404 -
+[ERROR] 96.126.104.20 - - [19/Aug/2025 14:01:18] code 400, message Bad request version ('À\x13À')
+[INFO] 96.126.104.20 - - [19/Aug/2025 14:01:18] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03Òñóó\x93\x0c¥í{\x9b)-\x98«\x1e\x05@\x1fD\x80c&\x81ë/\x8f\x1c3Æì*\x84 \x85Û#|\x1d-õSt\x91-#ºÊ!\x14&Å\x06\x10\x1f©\x16Ñ\x93ö\x87¶+¾2\x05\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+[INFO] 96.126.104.20 - - [19/Aug/2025 14:01:18] "[33mGET /signin HTTP/1.1[0m" 404 -
+[ERROR] 139.99.82.91 - - [19/Aug/2025 16:28:42] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[INFO] 139.99.82.91 - - [19/Aug/2025 16:28:42] "[31m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00[0m" 400 -
+[ERROR] 96.126.104.20 - - [19/Aug/2025 17:54:54] code 400, message Bad request version ('ÚûüùÔ\x88\x0e3\x10¶Ùy\x91x')
+[INFO] 96.126.104.20 - - [19/Aug/2025 17:54:54] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x11\x90\x93\x18û<@·`83å\x96¬\x8fôf\x80XÙ\x1a\x14P!\x0bH)y\x80\x85¬× ÅÑ\x85\x1fÚûüùÔ\x88\x0e3\x10¶Ùy\x91x[0m" 400 -
+[INFO] 96.126.104.20 - - [19/Aug/2025 17:54:54] "[33mGET /signin HTTP/1.1[0m" 404 -
+[ERROR] 96.126.104.20 - - [19/Aug/2025 21:57:28] code 400, message Bad request version ('À\x13À')
+[INFO] 96.126.104.20 - - [19/Aug/2025 21:57:28] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03\x04\x03\x10;j\x9cÞ\x85ëü¸\x9f\x1d\x9eÓ\x92ø.W\x1dmÚ\x82\x93·Ã\x00zó³#¼ \x16pdç¸U\x0bïEÓÞDÓ$TÇ[m\x8d\x83´\x00èl\x7f9abãÞ&Î\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+[INFO] 96.126.104.20 - - [19/Aug/2025 21:57:29] "[33mGET /signin HTTP/1.1[0m" 404 -
+[INFO] 198.235.24.228 - - [19/Aug/2025 22:23:39] "[33mGET / HTTP/1.1[0m" 404 -
+[ERROR] 96.126.104.20 - - [20/Aug/2025 01:57:50] code 400, message Bad request version ('À\x13À')
+[INFO] 96.126.104.20 - - [20/Aug/2025 01:57:50] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03Q6CLß7A\x16Ë\x14UP¸Î\x17òÇ"£NBÝ#º\\&\x9c\x8f\x08f¾¢ ðE\x99|îR\x90\x0b\x8eüÄ\x94\x9búÞ»\x1eg\x01kÃèbÒ\x08*ÄñJw\x99\x07\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+[INFO] 96.126.104.20 - - [20/Aug/2025 01:57:50] "[33mGET /signin HTTP/1.1[0m" 404 -
+[INFO] 3.132.23.201 - - [20/Aug/2025 03:08:28] "[33mGET / HTTP/1.1[0m" 404 -
+[INFO] 3.132.23.201 - - [20/Aug/2025 03:10:30] "[33mGET / HTTP/1.1[0m" 404 -
+[ERROR] 3.132.23.201 - - [20/Aug/2025 03:11:10] code 400, message Bad request version ('À\x14À')
+[INFO] 3.132.23.201 - - [20/Aug/2025 03:11:10] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03W\x18Ü¾å\x0bà\x9eD°A\x99ml´\x09:ûÂ¶±µ\x10d:fÕÝü¿Î\x94\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+[ERROR] 3.132.23.201 - - [20/Aug/2025 03:12:57] code 400, message Bad request syntax ('SSH-2.0-Go')
+[INFO] 3.132.23.201 - - [20/Aug/2025 03:12:57] "[31m[1mSSH-2.0-Go[0m" 400 -
+[ERROR] 3.132.23.201 - - [20/Aug/2025 03:15:08] code 400, message Bad request version ('À\x14À')
+[INFO] 3.132.23.201 - - [20/Aug/2025 03:15:08] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x1a_\x04EùxBä±\x08ê\x99¿¹Ó\x85)«í\x09¶\\\x86\x04\x06\x00\x0dûà¢\x90G\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+[ERROR] 96.126.104.20 - - [20/Aug/2025 05:58:29] code 400, message Bad request syntax ('\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03òZ')
+[INFO] 96.126.104.20 - - [20/Aug/2025 05:58:29] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03òZ[0m" 400 -
+[INFO] 96.126.104.20 - - [20/Aug/2025 05:58:29] "[33mGET /signin HTTP/1.1[0m" 404 -
+[INFO]  * Detected change in '/root/brd_chatbot/brd_agent.py', reloading
+[INFO]  * Restarting with stat
+[INFO] Loading environment variables...
+[INFO] Using downloaded & verified file: /root/.cache/doctr/models/fast_base-688a8b34.pt
+[INFO] Using downloaded & verified file: /root/.cache/doctr/models/crnn_vgg16_bn-0417f351.pt
+[WARNING]  * Debugger is active!
+[INFO]  * Debugger PIN: 134-282-790
+[INFO]  * Detected change in '/root/brd_chatbot/brd_chatbot.py', reloading
+[INFO]  * Restarting with stat
+Traceback (most recent call last):
+  File "/root/brd_chatbot/brd_chatbot.py", line 32, in <module>
+    from brd_agent import process_brd_query as agent_process_brd_query
+  File "/root/brd_chatbot/brd_agent.py", line 6, in <module>
+    from langgraph.graph import Graph, StateGraph
+ImportError: cannot import name 'Graph' from 'langgraph.graph' (/root/brd_chatbot/venv/lib/python3.12/site-packages/langgraph/graph/__init__.py)
